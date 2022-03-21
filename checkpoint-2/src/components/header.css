@@ -5,10 +5,14 @@
 
 .header {
     height: 15vh;
-    background-color: cornflowerblue;
+    background-color: rgb(54, 89, 155);
     color: white;
     box-sizing: border-box;
+    border-radius: 25px;
+    border: solid 2px red;
 }
+
+
 
 .header h1 {
     padding: 5px;

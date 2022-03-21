@@ -16,7 +16,7 @@ const GameList = ({ gamesList, setGamesList }) => {
 
     return (
         <div className="gamelist-div">
-            <button type="button" id="rating-button" onClick={() => setBestRating(!bestRating)}>{!bestRating ? "Show only best ones" : "Show all"}</button>
+            <button type="button" id="rating-button" onClick={() => setBestRating(!bestRating)}>{!bestRating ? "Top Rated" : "Show all"}</button>
             <div className="game-list">
                 {gamesList && gamesList
                 .filter((game) => bestRating ? game.rating >= 4.5 : game)

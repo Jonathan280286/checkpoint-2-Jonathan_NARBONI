@@ -6,17 +6,13 @@
 .game {
     margin: 3vw;
     height: 40vh;
-    border-radius: 50px;
-    box-shadow: black 10px 10px 10px;
-    transition: transform 0.3s;
 }
 
 .game img {
     width: 25vw;
     height: 100%;
     position: relative;
-    z-index: -1;
-    border-radius: 50px;
+    z-index: -1;  
 }
 
 .game h1 {
@@ -35,5 +31,4 @@
     bottom: 10vh;
     font-size: 1.2rem;
     color: white;
-    text-shadow: black 10px 10px 10px;
 }

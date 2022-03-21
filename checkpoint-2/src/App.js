@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header name="Gaming Website" />
+        <Header name="WildGamingWebSuperSite" />
           <Routes>
             <Route path="/" element={<GameList gamesList={gamesList} setGamesList={setGamesList} />}/>
             <Route path="/game/:id" exact element={<GameDetails />}/>
